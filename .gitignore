@@ -25,3 +25,5 @@
 nbproject
 thumbs.db
 
+# Custom
+images/*
