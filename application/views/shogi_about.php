@@ -87,6 +87,26 @@
 	    </div> <!-- /container -->
 	</div><!-- /ww -->
 
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h4>将棋メーカー</h4>
+					<p>オリジナルの将棋の駒を簡単に作ることができます。</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-6">
+					<h4>作者</h4>
+                    <p><a href="https://twitter.com/ko31">@ko31</a></p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
