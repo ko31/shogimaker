@@ -168,15 +168,15 @@
                     <table id="form2" class="table table-bordered">
                         <tr>
                             <th>王将</th>
-                            <td><input type="text" class="form-control" name="k_ou" id="k_ou" placeholder="王将" value="王将" /></td>
+                            <td><input type="text" class="form-control" name="k_ou1" id="k_ou1" placeholder="王将" value="王将" /></td>
                         </tr>
                         <tr>
                             <th>飛車</th>
-                            <td><input type="text" class="form-control" name="k_hi" id="k_hi" placeholder="飛車" value="飛車" /></td>
+                            <td><input type="text" class="form-control" name="k_hi1" id="k_hi1" placeholder="飛車" value="飛車" /></td>
                         </tr>
                         <tr>
                             <th>角行</th>
-                            <td><input type="text" class="form-control" name="k_kaku" id="k_kaku" placeholder="角行" value="角行" /></td>
+                            <td><input type="text" class="form-control" name="k_kaku1" id="k_kaku1" placeholder="角行" value="角行" /></td>
                         </tr>
                         <tr>
                             <th>金将</th>
