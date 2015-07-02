@@ -69,7 +69,11 @@
                 for (var i in piece) {
                     var obj = new createjs.Text(content);
                     obj.textAlign = 'center';
-                    obj.font = 'bold 18px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    if (content.length == 6) {
+                        obj.font = 'bold 12px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    } else {
+                        obj.font = 'bold 18px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    }
                     obj.x = piece[i].x;
                     if (content.length == 2) {
                         obj.y = piece[i].y + 10;
@@ -87,10 +91,13 @@
             $.each (pieces, function(key, piece) {
                 for (var i in piece) {
                     var content = getContent(piece[i].id);
-
                     var obj = new createjs.Text(content);
                     obj.textAlign = 'center';
-                    obj.font = 'bold 18px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    if (content.length == 6) {
+                        obj.font = 'bold 12px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    } else {
+                        obj.font = 'bold 18px Hiragino Kaku Gothic Pro,Meiryo,sans-serif';
+                    }
                     obj.x = piece[i].x;
                     if (content.length == 2) {
                         obj.y = piece[i].y + 10;
@@ -107,8 +114,8 @@
 
     var getContent = function(key){
         var content = $('#' + key).val();
-        // 3文字目以降は切り捨てる
-        content = content.substring(0, 2);
+        // 4文字目以降は切り捨てる
+        content = content.substring(0, 3);
         // 1文字おきに改行を入れる
         content = content.replace(/[\r|\r\n|\n]/g, "").replace(/(.{1})/g, "$1" + "\n");            
         return content;

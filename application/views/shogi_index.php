@@ -94,7 +94,7 @@
 			<div class="col-lg-6 col-lg-offset-3 centered">
 				<h3>将棋の駒を作る</h3>
 				<hr>
-				<p>それぞれの駒に表示する文字を入力してください。（1つの駒に2文字まで）</p>
+				<p>それぞれの駒に表示する文字を入力してください。（1つの駒に3文字まで）</p>
 			</div>
 		</div>
         <div class="row mt">	
