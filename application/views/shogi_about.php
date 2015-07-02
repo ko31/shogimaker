@@ -72,21 +72,24 @@
       </div>
     </div>
 
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="/assets/shogi/top.png" alt="将棋メーカー">
+    <!-- +++++ Post +++++ -->
+    <div id="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
 					<h1>将棋メーカーについて</h1>
 					<p>将棋メーカーはオリジナルの将棋の駒を簡単に作ることができる Web サービスです。</p>
 					<p><img src="/assets/shogi/sample.png" alt="サンプル将棋画像"></p>
 					<p>将棋好きの方も、ネタ好きの方もぜひお気軽に遊んでみてください。</p>
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /ww -->
-
+                    <h2>更新情報</h2>
+                    <ul>
+                        <li>2015.06.01 サイト公開しました。</li>
+                    </ul>
+                </div>
+            </div><!-- /row -->
+        </div> <!-- /container -->
+    </div><!-- /white -->
+	
 	<!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
