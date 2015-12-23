@@ -48,7 +48,7 @@ class Shogi_model extends CI_Model {
     {
         $images = array();
 
-        $sql = "SELECT `id`, `key`, `title`, date_format(`created`, '%Y.%m.%d %T') AS `date` FROM shogi ORDER BY `id` DESC limit 100";
+        $sql = "SELECT `id`, `key`, `title`, date_format(`created`, '%Y.%m.%d %T') AS `date` FROM shogi ORDER BY `id` DESC";
         $result = $this->db->query($sql, array());
         if (!$result->num_rows()) {
             return $images;
