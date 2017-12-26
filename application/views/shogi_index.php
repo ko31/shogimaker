@@ -36,7 +36,7 @@
     <meta property="og:image" content="http://shogimaker.ko31.com/assets/shogi/sample.png" />
     <meta property="og:site_name" content="将棋メーカー" />
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ko31">
     <meta name="twitter:title" content="将棋メーカー">
     <meta name="twitter:description" content="将棋メーカーはオリジナルの将棋を簡単に作ることができるWebサービスです。">
